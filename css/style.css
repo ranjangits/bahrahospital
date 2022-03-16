@@ -28,7 +28,7 @@
 	border: 2px solid whitesmoke;
 
 	height: 300px;
-	width: 1500px;
+	width: 1550px;
 	text-align: right;
 	padding-top: 30px;
 	background-color: black;
@@ -37,19 +37,25 @@
 }
 .sack{
     text-align: left;
-    margin-left: 30px;
+    margin-top: 20px;
+    
 }
-/* .threes{
-    border: 1px solid black;
-} */
+ 
 .basically{
-    border: 1px solid black;
+    border: 1px solid violet;
     padding: 10px;
     border-radius: 5px 2px;
-     color: black;
+     color: whitesmoke;
 }
+.basicallys{
+    
+    padding: 10px;
+    border-radius: 5px 2px;
+     color: whitesmoke;
+}
+
 .basically:hover{
-    color: maroon;
+    color: rgb(255, 208, 208);
     border-color: violet;
     text-decoration: none;
     border-radius: 15px 10px;
@@ -73,4 +79,72 @@ body {
 
     transition-duration: 1s;
 }
+.sand {
+    height: 130px;
+    width: 100%;
+    background-color: black;
+}
+/* .sink{
+    border: 1px solid black;
+    height: 700px;
+    width: 100%;
+    background-color: black;
+} */
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.rick{
+    border: 1px solid violet;
+    
+ 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border: 1px solid violet;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn:hover{
+    border-radius: 10px 5px;
+    transition-duration: 1s;
+    color: violet;
+    
+
+}
+.sequence{
+    font-size: 21px;
+    
+
+}
+
+ 
  
