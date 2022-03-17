@@ -28,14 +28,15 @@
 
     <div class="sand">
         <div class="row">
-            <div class="col-4 ">
-                <img src="images/medicine-logo-png-18.png" style="width: 100px; margin-left: 10px;" alt="">
+            <div class="col-3 ">
+                <img src="images/medicine-logo-png-18.png"
+                    style="width: 100px; margin-left: 10px; background: linear-gradient(red,blue);" alt="">
             </div>
             <div class="col-7"> <br><br>
                 <my-header style="padding-left: 30px; font-size: 25px;"></my-header>
             </div>
-            <div class="col-1 basicallys">
-                <img src="images/emergency-repair-symbol.png" width="110px" alt="">
+            <div class="col-2 basicallys">
+                <img src="images/emergency-repair-symbol.png" width="100px" alt="">
             </div>
             <br><br><br><br> <br><br><br>
         </div>
@@ -45,8 +46,7 @@
 
 
 
-    <br><br> <span
-        style="font-size: 40px; margin-left: 540px;margin-top: -100px; font-family: Georgia, 'Times New Roman', Times, serif;">
+    <br><br> <span style="font-size: 40px; margin-left: 540px;margin-top: -100px; font-family: forte">
         Welcome To Bahra Hospital</span> <br>
 
     </div>
@@ -75,11 +75,11 @@
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon spa" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon spa" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
@@ -92,36 +92,39 @@
         <div class="col-10">
             <h2> <br><br>Bahra Hospital - Private Hospital </h2>
 
-            <p class="font family" style="word-spacing: 10px;">Having been established in 2010, Rayat Bahra Dental
+            <p class="font family" style="word-spacing: 10px; line-height: 200%; text-align: justify;">Having been
+                established in 2010,
+                Rayat
+                Bahra Dental
                 College and Hospital is an
                 accredited dental college,
-                approved by the Ministry of <br> Health and Welfare and Dental Council of India (letter
-                no.V.12017/46/2008-DE) and has constantly strived towards excellence in all aspect. <br>
+                approved by the Ministry of Health and Welfare and Dental Council of India (letter
+                no.V.12017/46/2008-DE) and has constantly strived towards excellence in all aspect.
                 Started with the vision of Mr. Gurvinder Singh Bahra and Mr. Nirmal Singh Rayat the college aims at
-                providing quality education and <br>relevant experience to students aspiring a bright career in the
+                providing quality education and relevant experience to students aspiring a bright career in the
                 Dental
-                and Maxillofacial field.
-                It is our endeavor to help the students a <br>chieve their dreams in every possible manner.
+                and Maxillofacial fi eld.
+                It is our endeavor to help the students a chieve their dreams in every possible manner.
                 Well-qualified
-                and experienced faculty, open platforms for discussions and regular assignment <br> and assessments
+                and experienced faculty, open platforms for discussions and regular assignment and assessments
                 are,
                 to
 
                 name a few, methods by which we encourage our students to excel.
-                To help them through this process the c <br>ollege has recently also introduced the concept of
+                To help them through this process the c ollege has recently also introduced the concept of
                 mentors;
                 wherein one mentor is assigned to five students. This gives the student an opportunity to talk about
                 and
-                discuss any pressing issue, be it personal or academic. Individualized care and not
+                dis cuss any pressing issue, be it personal or academic. Individualized care and not
                 ‘factory-line’
-                teaching is <br> the idea behind this step.
+                teaching is the idea behind t his step.
                 Scholarships from the Rayat Bahra group are also made available to deserving and in-need
                 students.
             </p>
 
         </div>
     </div>
-    <button style="margin-left: 1160px;" class="btn btn-danger font-family " data-toggle="modal"
+    <button style="float: right; margin-right: 120px; " class="btn btn-danger font-family " data-toggle="modal"
         data-target="#registration_2">Appointment
         <span class="fa fa-plus"></span></button>
     </div>
@@ -130,7 +133,7 @@
         <div class="modal-dialog modal-lg modal-dialog-centered ">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Registration</h5>
+                    <h5 class="modal-title">Appointment</h5>
                     <button class="close" data-dismiss="modal">&times;</button>
 
                 </div>
@@ -138,48 +141,56 @@
                 <div class="modal-body">
                     <form>
                         <div class="row">
+
                             <div class="col-6">
-                                <div class="form-group">
-                                    <label>Name</label>
-                                    <input type="text" class="form-control">
+                                <form action="#">
                                     <div class="form-group">
-                                        <label>Email</label>
-                                        <input type="email" class="form-control">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" name="name" required>
+
+                                        <div class="form-group">
+                                            <label>Email</label>
+                                            <input type="email" class="form-control" Email="email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Phone no</label>
+                                            <input type="password" class="form-control" phone no="phone no" required>
+                                        </div>
                                     </div>
                                     <div class="form-group">
-                                        <label>Phone no</label>
-                                        <input type="password" class="form-control">
+                                        <label>Have you Previously Attend your Facility</label>
+                                        <div class="form-check-inline form-control">
+                                            <input type="radio" class="form-check-input mx-2" name='gender'>
+                                            <label class="form-check-label">Yes</label>
+                                            <input type="radio" class="form-check-input mx-2" name="gender">
+                                            <label class="form-check-label">No</label>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Have you Previously Attend your Facility</label>
-                                    <div class="form-check-inline form-control">
-                                        <input type="radio" class="form-check-input mx-2" name='gender'>
-                                        <label class="form-check-label">Yes</label>
-                                        <input type="radio" class="form-check-input mx-2" name="gender">
-                                        <label class="form-check-label">No</label>
+                                    <div class="form-group">
+                                        <label>Appointment</label>
+                                        <input type="date" class="form-control" date="date" required>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Appointment</label>
-                                    <input type="date" class="form-control">
-                                </div>
 
 
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Address</label>
-                                    <textarea name="" id="" cols="10" rows="4" class="form-control"></textarea>
+                                    <textarea name="" id="" cols="10" rows="4" class="form-control" Address="address"
+                                        required></textarea>
                                 </div>
                             </div>
                         </div>
 
-                    </form>
+
+
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-warning" data-dismiss="modal">save</button>
+                    <!-- <button class="btn btn-warning" data-dismiss="modal">save</button> -->
+
+                    <input type="submit" class="btn btn-warning">
                     <button class="btn btn-dark" data-dismiss="modal">cancel</button>
+                    </form>
 
                 </div>
             </div>
@@ -193,27 +204,30 @@
                 <div class="card " style="background-color: bisque;">
                     <img src="images/hii (1).jpg" class="card-img-top">
                     <div class="card-body">
-                        <div class="card-title h2"> Otolaryngologist</div>
-                        <div class="card-subtitle text-muted h4">Otolaryngologist</div>
-                        <div class="card-text">An otolaryngologist is a doctor who specializes in problems of the
+                        <div class="card-title h2"> Otolaryngologist</div> <br>
+                        <div class="card-subtitle text-muted h4">Otolaryngologist</div> <br>
+                        <div class="card-text" style="text-align: justify;">An otolaryngologist is a doctor who specia
+                            <br> lizes in problems of the
                             head
                             and
-                            neck. Otolaryngology is
+                            neck. Oto <br> laryngology is
                             a shortened
-                            form of the term otorhinolaryngology, which comes from Greek words for ear (oto), nose
+                            form of the term otorhinolaryngology, which comes from Gre <br> ek words for ear (oto), nose
                             (rhino),
                             and
-                            throat
+                            thr <br> oat
                             (laryn).
 
-                            Otolaryngologists used to focus solely on problems of the ear, nose, and throat. You may
+                            Otolaryngologists used to focus solely on problems of the ear, nose, and thr <br> oat. You
+                            may
                             still
                             hear
                             them called
                             an ENT (ear, nose, and throat) or ENT doctors. Over the last 50 years, the specialty has
                             expanded to
                             include all
-                            structures of the head and neck except for the eyes and brain.</div>
+                            structures of the head and neck except for the eyes and brain.
+                        </div>
                     </div>
 
                 </div>
@@ -221,18 +235,21 @@
                     <img src="images/cardiac.jpg" height="240px" class="card-img-top">
                     <div class="card-body">
                         <div class="card-title h2">Cardiac
-                        </div>
-                        <div class="card-subtitle text-muted h4">cardiac</div>
-                        <div class="card-text"> cardiologists are doctors who work with the heart and blood vessels.
-                            They diagnose, treat, and work to prevent diseases of the heart—coronary artery disease,
-                            heart rhythm abnormalities, congenital heart disease, etc. They also act as consultants
+                        </div> <br>
+                        <div class="card-subtitle text-muted h4">cardiac</div> <br>
+                        <div class="card-text" style="text-align: justify;"> Cardiologists are doctors who work with the
+                            heart and blood vessels.
+                            They diagnose, tre <br> at, and work to prevent diseases of the heart—coronary artery
+                            disease,
+                            heart rhythm abn <br> o rmalities, congenital heart disease, etc. The <br> y also act as
+                            consultants
                             to
                             other physicians.
 
-                            Given how widespread heart disease is today, cardiologists are needed more than ever.
-                            The
+                            Given how widespread heart disease is today <br> , cardiologists are needed more than ever
+                            Th <br>
                             Centers for Disease Control and Prevention (CDC) reveals that heart disease is
-                            the leading
+                            the lead <br> ing
                             cause of death for men and women in the US. One in every four deaths can be attributed
                             to
                             heart disease.</div>
@@ -244,15 +261,17 @@
                     <img src="images/Heapotology.jpg" height="240px" class="card-img-top" alt="">
                     <div class="card-body">
 
-                        <div class="card-tittle h2">Heaptology</div>
-                        <div class="card-subtitle text-muted h4">Heaptology</div>
-                        <div class="card-text "> Hepatology is distinct from other specialized forms of medicine
+                        <div class="card-tittle h2">Heaptology</div> <br>
+                        <div class="card-subtitle text-muted h4">Heaptology</div> <br>
+                        <div class="card-text " style="text-align: justify;"> Hepatology is distinct from other
+                            specialized forms of medicine
                             because
-                            of its focus on organs affected by hepatic diseases. Your hepatic system includes the
-                            following organs.Hepatology’s primary focus is on the liver.
+                            of its focus on or <br> gans affected by hepatic diseases. Your hepa<br> tic system
+                            includes the
+                            following organs.Hep<br> atology’s primary focus is on the liver.
 
                             This essential organ is responsible for helping to digest the foods you eat as well as
-                            supporting your metabolism and getting rid of toxins.
+                            support<br> ing your metabolism and getting rid of toxi <br> ns.
 
                             The liver also helps store and process fat-soluble vitamins, such as vitamin D3 and
                             vitamin
@@ -264,16 +283,7 @@
     </div>
     </div>
     <p>
-    <p width="400px">Otology is a branch of medicine which studies normal and pathological anatomy and
-        physiology of
-        the
-        ear (hearing
-        and vestibular sensory systems and related structures and functions) as well as their diseases,
-        diagnosis
-        and
-        treatment. Otologic surgery generally refers to surgery of the middle ear and mastoid related to chronic
-        otitis
-        media, such as tympanoplasty, or ear drum surgery, ossiculoplasty</p>
+
     </p>
 
     <div class="row">

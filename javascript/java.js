@@ -4,10 +4,10 @@ class MyHeader extends HTMLElement {
         
             <a href='index.html'class="basically">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp 
             <a href='about.html'class="basically">About us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp 
-            <a href='contact.html'class="basically">contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-            <a href='doctor.html'class="basically">doctor</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+            <a href='contact.html'class="basically">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+            <a href='doctor.html'class="basically">Doctor</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
             <div class="dropdown rick">
-            <button class="dropbtn sequence" >Service</button>
+            <button class="dropbtn sequence" style=" font-size:25px " >Service</button>
             <div class="dropdown-content">
                 <a href="dentalclinic.html">Dental Care</a>
                 <a href="otology.html">Otology Care</a>
@@ -39,13 +39,13 @@ class MyFooter extends HTMLElement {
          
         <div class="row">
         <div class="col-3"></div>
-        <div class="col-5">
+        <div class="col-6 ">
             <h2 style="font-size: 35px;">Emergency Number-: 072072 17221</h2>
         </div>
     </div>
     <div class="row">
     <div class=col-3></div>
-    <div class=col-4>
+    <div class=col-4 >
     Copyright (c) 2022  Bahra Hospital
     </div>
     </div>
